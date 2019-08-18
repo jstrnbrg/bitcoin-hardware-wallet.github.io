@@ -148,7 +148,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content='HD stands for "hierachical deterministic" and describes a process how from one master private key an infinite number of child private keys can be generated which allows us to only having to back up this one master private key compared to each individual private key.'>
+                data-content='HD stands for "hierachical deterministic" and describes the process how from one master private key an "infinite" number of child private keys can be generated which allows us to only having to back up this one master private key instead of individual private key.'>
                 <a style="size:26px;" href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">HD-Wallet (BIP32)  </a>
               </button>
             </th>
@@ -202,7 +202,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content=''>
+                data-content="BIP39 describes how to represent the master private key as a mnemonic seed phrase which is easier for humans to back up and less error-prone compared to having to back up a master private key in it's normal format.">
                 <a style="size:26px;" href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">Mnemonic seed (BIP39)</a>
               </button>
             </th>
@@ -256,7 +256,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="A screen is a must have in order to show important information such as the recipient's address and the amount of an transaction. The bigger and easier to read the display the better.">
+                data-content="A screen is a must-have in order to show important information such as the recipient's address and the amount of the transaction. The bigger and easier to read the display the better.">
                 <a style="size:26px;">Display</a>
               </button>
             </th>
@@ -279,17 +279,6 @@
                 data-toggle="popover"
                 data-content=''>
                 <span class="fa fa-star checked"></span>
-              </button>
-            </td>
-            <td>
-              <button
-                type="button"
-                data-html="true"
-                class="btn btn-sm"
-                data-toggle="popover"
-                data-content=''>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
               </button>
             </td>
@@ -301,7 +290,19 @@
                 data-toggle="popover"
                 data-content=''>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span> ?
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
               </button>
             </td>
           </tr>
@@ -314,7 +315,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content='There must be the option to show a generated receive address on the device screen.'>
+                data-content='There must be the option to show a generated receive address on the device screen as otherwise there is no way to verify that the address actually belongs to your hardware wallet.'>
                 <a style="size:26px;">Verify receive address</a>
               </button>
             </th>
@@ -369,7 +370,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="A temporary passphrase allws you to create multiple independent wallets by inputing an additional password, called passphrase. This feature can be used to seperate coins and for plausible deniability.">
+                data-content="A temporary passphrase allows you to create multiple independent wallets by inputing an additional password, called passphrase. This feature can be used to seperate coins and for plausible deniability.">
                 <a style="size:26px;" href="https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki">Passphrase (BIP 38)</a>
               </button>
             </th>
@@ -533,7 +534,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="Only if the code running on a Hardware wallet is fully open source you can be sure that it does not do anything mallicous as everyone (with the necessary coding skills) can audit the code and verify that it does what it is meant to do.">
+                data-content="Only if the code running on a hardware wallet is fully open source you can be sure that it does not do anything mallicous as everyone (with the necessary coding skills) can audit the code and verify that it does what it is meant to do.">
                 <a style="size:26px;" >Fully open source</a>
               </button>
             </th>
@@ -631,7 +632,7 @@
                 data-toggle="popover"
                 data-content=''>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>?
+                <span class="fa fa-star checked"></span>
                 <!--coldcard lets user add manual entropy-->
               </button>
             </td>
@@ -645,7 +646,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="PSBT stands for 'partially signed Bitcoin transaction'. This improvement makes it easier for people using different wallets to cooperatively sign a transaction as all the necessary information to securely verify and sign the transaction is included in the format.">
+                data-content="PSBT stands for 'partially signed Bitcoin transaction'. This improvement makes it easier for different wallets to cooperatively sign a transaction as all the necessary information to securely verify and sign the transaction is included in the format.">
                 <a style="size:26px;" href="https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki">PSBT (BIP 174)</a>
               </button>
             </th>
@@ -700,7 +701,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="Device attestation allows the companion app to determine the authenticity of the device and therfore mitigates some supply-chain attacks.">
                 <a style="size:26px;">Device attestation</a>
               </button>
             </th>
@@ -732,7 +733,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-question fa-lg"></span>
+                <span class="fa fa-times fa-lg"></span>
               </button>
             </td>
             <td>
@@ -756,7 +757,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="Encrypted USB communication between the device and the companion app ensures that a different app or the OS can't evasdrop on the communcation between the device and the companion app or simulate a second device (MITM).">
                 <a style="size:26px;">USB comm. encryption</a>
               </button>
             </th>
@@ -777,7 +778,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-check fa-lg">?</span>
+                <span class="fa fa-check fa-lg"></span>
               </button>
             </td>
             <td>
@@ -787,8 +788,9 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-question fa-lg"></span>
+                <span class="fa fa-times fa-lg"></span>
               </button>
+              <!--https://github.com/trezor/trezor-firmware/issues/79-->
             </td>
             <td>
               <button
@@ -822,9 +824,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-check fa-lg"></span>
               </button>
             </td>
             <td>
@@ -834,8 +834,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-check fa-lg"></span>
               </button>
             </td>
             <td>
@@ -855,7 +854,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-check fa-lg"></span>
               </button>
             </td>
           </tr>
@@ -869,7 +868,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="A multisig wallet is a special type of wallet that creates addresses that can only be spent by multiple keys. For example 2/2 or 2/3. These different keys should be held on multiple different hardware wallets from different vendors in order to minimise one's risk even further.">
                 <a style="size:26px;" href="https://en.bitcoin.it/wiki/Multisignature">Multi-sig </a>
               </button>
             </th>
@@ -895,9 +894,8 @@
                     <a href="https://github.com/bitcoin-hardware-wallet/bitcoin-hardware-wallet.github.io">does not verify receiving addresses</a>, and
                     <a href="https://www.reddit.com/r/ledgerwallet/comments/6mwpnt/electrum_multisig_with_ledger_on_testnet/">does not verify that the change address used in a transaction is yours</a>;
                     fixing these issues would immediately raise their score.
-                '
-              >
-                <span class="fa fa-star checked"></span>
+                '>
+                <span class="fa fa-times fa-lg"></span>
               </button>
             </td>
             <td>
@@ -908,8 +906,7 @@
                 data-toggle="popover"
                 data-content='Multi-device multi-sig only possible via <a href="https://electrum.org/">Electrum</a> and other third party software, not directly compatible with Bitcoin Core (<a href="https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki">BIP174</a>).'
               >
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-times fa-lg"></span>
               </button>
             </td>
             <td>
@@ -919,9 +916,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content='Directly compatible with Bitcoin Core (<a href="https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki">BIP174</a>), and also works with <a href="https://electrum.org/">Electrum</a>.'>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-check fa-lg"></span>
               </button>
             </td>
           </tr>
@@ -998,7 +993,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="It should be easy to use a Hardware Wallet in order to minimnise mistakes and user frustration.">
                 <a style="size:26px;">User-input </a>
               </button>
             </th>
@@ -1061,7 +1056,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="Adress whitelisting let's you specify a set of addresses that the coins on your hardware wallet can be sent to.">
                 <a style="size:26px;">Adress whitelisting</a>
               </button>
             </th>
@@ -1172,6 +1167,61 @@
             <th scope="row">
               <a>Usability</a>
             </th>
+          </tr>
+
+
+          <!--Realistic setup time-->
+          <tr>
+            <th scope="row">
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-m pt-0"
+                data-toggle="popover"
+                data-content="Realistic setup time means: 1. Creating a new wallet, 2. Backing up of the wallet, 3. Sending test transaction to wallet, 4. Resetting device, 5. Restoring the wallet from backup, 6. Checking that the test transaction shows up.">
+                <a style="size:26px;">Realistic setup time</a>
+              </button>
+            </th>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span>5 min</span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span>25 min</span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span>25 min</span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span class="fa fa-question fa-lg"></span>
+              </button>
+            </td>
           </tr>
 
           <!--Multi language-->
@@ -1291,7 +1341,7 @@
                 class="btn btn-m pt-0"
                 data-toggle="popover"
                 data-content="">
-                <a style="size:26px;">Built in user guide</a>
+                <a style="size:26px;">Built-in user guide</a>
               </button>
             </th>
             <td>
@@ -1301,7 +1351,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked fa-lg"></span>
               </button>
             </td>
             <td>
@@ -1375,7 +1425,7 @@
                 class="btn btn-sm"
                 data-toggle="popover"
                 data-content=''>
-                <span>Web based desktop app</span>
+                <span>Browser-based desktop app</span>
               </button>
             </td>
             <td>
@@ -1508,7 +1558,7 @@
                 data-html="true"
                 class="btn btn-m pt-0"
                 data-toggle="popover"
-                data-content="">
+                data-content="Easy to use account management (not using a passphrase).">
                 <a style="size:26px;">Multiple accounts</a>
               </button>
             </th>
@@ -1661,6 +1711,60 @@
                 data-toggle="popover"
                 data-content=''>
                 <span class="fa fa-times fa-lg"></span>
+              </button>
+            </td>
+          </tr>
+
+          <!--Testnet support-->
+          <tr>
+            <th scope="row">
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-m pt-0"
+                data-toggle="popover"
+                data-content="">
+                <a style="size:26px;">Testnet support</a>
+              </button>
+            </th>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content='Requires changing the "target". Would be nicer if it was an optional coin in the app settings. <a href="https://medium.com/@ShiftCryptoHQ/bitcoins-testnet-bitbox-on-windows-10-7e07b7c95fe8">Guide</a>'>
+                <span class="fa fa-check fa-lg">*</span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span class="fa fa-times fa-lg"></span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content='Requires pasting a URL into the settings. Would be nicer if it was a dropdown option.'>
+                <span class="fa fa-check fa-lg">*</span>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                data-html="true"
+                class="btn btn-sm"
+                data-toggle="popover"
+                data-content=''>
+                <span class="fa fa-question fa-lg"></span>
               </button>
             </td>
           </tr>
@@ -1912,7 +2016,7 @@
             </th>
             <td>C</td>
             <td>C</td>
-            <td>Python</td>
+            <td>C & Python</td>
             <td>C & Python</td>
           </tr>
 
@@ -1930,7 +2034,7 @@
             <td>Switzerland</td>
             <td>France</td>
             <td>Czech Republic</td>
-            <td>Canada ??</td>
+            <td>Canada</td>
           </tr>
 
           <tr>
@@ -1955,6 +2059,10 @@
 
       <p class="small">
         (Hover over the stars and feature title for more information) | This comparision was made to the best of my knowledge. If anything is incorrect or out of date; you think that an important criteria is missing or anything else,  please open an <a href="https://github.com/jstrnbrg/hardware-wallets/issues">issue on Github.</a>
+      </p>
+
+      <p class="small">
+        * means it is possible but requires advanced skills to set up </a>
       </p>
 
       <hr />
